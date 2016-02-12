@@ -1,0 +1,122 @@
+
+#circle {
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  /*display: block;
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;*/
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  /*border: 5px solid #eee;*/
+  box-shadow: 0 7px 140px rgba(255, 0, 0, 0.3);
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.brand{
+  position: absolute;
+  top: -5%;
+  left: 17%;
+  color: blue;
+  font-size: 50px;
+}
+
+body {
+background: maroon;
+color: white;
+}
+#welcome{
+  position: absolute;
+  top: 5%;
+  left: 23%;
+}
+
+
+
+
+
+
+#bio{
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  width: 20%;
+}
+#travels{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  width: 20%;
+
+}
+#hobbies{
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  width: 20%;
+
+}
+#interests{
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  width: 20%;
+
+}
+
+/*#bio-description{
+  width: 25%;
+  height: 20%;
+}
+#travels-description{
+  width: 25%;
+  height: 20%;
+}
+#hobbies-description{
+  width: 25%;
+  height: 20%;
+}
+#interests-description{
+  width: 45%;
+  height: 20%;
+}*/
+
+
+
+
+
+#first-entry{
+  background: url('new.png');
+  position: absolute;
+  left: 22%;
+  top: 17%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 55%;
+  height: 55%;
+
+}
+#first-pic{
+  /*background: url('https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/46860_552826629257_8225571_n.jpg?oh=f4286aed09e62802b8c6c4c3ce09e229&oe=573B4E14');*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30%;
+  height: 50%;
+  position: absolute;
+  top: 12%;
+  left: 30%;
+}
+#second-entry{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}

@@ -1,0 +1,147 @@
+#topBar {
+  position: absolute;
+  width: 1425px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.navigationBar {
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  top: 15px;
+  left: 590px;
+}
+li {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Quicksand', sans-serif;
+}
+a:hover{
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(064, 224, 208, 1);
+}
+.backImage {
+  position: relative;
+  left: 180px;
+  background: url('http://i.imgur.com/HqPoM4K.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1400px;
+  height: 700px;
+}
+#intro {
+  position: absolute;
+  top: 720px;
+  left: 400px;
+}
+h1  {
+  position: relative;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+h2  {
+  font-family: 'Quicksand', sans-serif;
+}
+.portfolioImages {
+  position: relative;
+}
+p {
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  width: 700px;
+  text-align: center;
+}
+h2  {
+  position: relative;
+  text-align: center;
+}
+@media all and (min-width:801px) and (max-width: 1201px) {
+  #topBar {
+    height: 500px;
+    width: 980px;
+  }
+  .navigationBar {
+    left: 220px;
+  }
+  .backImage {
+    width: 700px;
+    left: 130px;
+  }
+  #intro {
+    top: 500px;
+  }
+  h1 {
+    right: 250px;
+  }
+  h2 {
+    right: 250px;
+  }
+  p {
+    right: 250px;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  #topBar {
+    height: 400px;
+    width: 560px;
+    left: 80px;
+  }
+  .navigationBar {
+    left: 30px;
+  }
+  .backImage {
+    width: 500px;
+    left: 30px;
+    top: 15px;
+  }
+  #intro {
+    top: 400px;
+  }
+  h1 {
+    right: 400px;
+  }
+  h2  {
+    right: 400px;
+  }
+  p {
+    right: 400px;
+  }
+}
+
+@media all and (min-width: 400px) and (max-width: 600px) {
+  #topBar {
+    height: 330px;
+    width: 530px;
+    left: 10px;
+  }
+  .navigationBar {
+    left: -10px;
+  }
+  .backImage {
+    width: 500px;
+    height: 300px;
+    left: 40px;
+  }
+  #intro {
+    top: 350px;
+    left: 10px;
+  }
+  h1  {
+    font-size: 20px;
+    right: 10px;
+  }
+  h2  {
+    font-size: 20px;
+    right: 10px;
+  }
+p {
+  font-size: 10px;
+  text-align: center;
+
+  width: 500px;
+}
+}
